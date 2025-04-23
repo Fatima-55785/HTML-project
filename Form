@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form</h1>
+    <form action="#" method="post">
+        <label for="Full name">Full Name:</label>
+        <input type="text" id="Full name" name="Full Name" required placeholder="Enter your Full Name"> <br><br>
+        <label for="Email">Email:</label>
+        <input type="email" id="Email" name="Email" required placeholder="Enter your Email"><br><br>
+        <label for="Password">Password:</label>
+        <input type="password" id="Password" name="Password" required placeholder="Enter your Password"> <br><br>
+        <label for="Gender"> Gender:</label>
+        <input type="radio" id="Gender" name="Male">Male
+        <input type="radio" id="Gender" name="Female">Female <br><br
+        <label for="Country">Country:</label>
+        <select>
+            <option id="Select">Select</option>
+            <option id="Pakistan">Pakistan</option>
+            <option id="India">India</option>
+            <option id="China">China</option>
+            <option id="Indonesia"> Indonesia</option>
+            <option id="Korea">Korea</option>
+         </select><br> <br>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
